@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Meadowhall Gossip Site</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1 id="siteTitle">Meadowhall Gossip Site</h1>
+
+  <div id="loginSection">
+    <input type="text" id="usernameInput" placeholder="Enter username" />
+    <button id="loginBtn">Login</button>
+  </div>
+
+  <div id="welcomeSection" style="display:none;">
+    <p>Logged in as <span id="userDisplay"></span></p>
+  </div>
+
+  <form id="postForm" style="display:none;">
+    <input type="text" id="postInput" placeholder="Write your gossip here..." />
+    <button type="submit">Post</button>
+  </form>
+
+  <ul id="postList"></ul>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
